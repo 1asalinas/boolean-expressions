@@ -12,15 +12,15 @@ let z= 6;
 
 //just using x
 let positiveX = (x > 0);
-let negativeX= (-x < 0);
+let negativeX= (x < 0);
 
 //using all 3 variables
-let allPositive= x+y+z;
-let allNegative= -x-y-z;
+let allPositive= (x>0) && (y>0) && (z>0);
+let allNegative= (x<0) && (y<0) && (z<0);
 
 //using all 3 variables
-let atLeastOnePositive= -x-y+z;
-let atLeastOneNegative= x+y-z;
+let atLeastOnePositive= (x>0) || (y>0) || (z>0);
+let atLeastOneNegative= (x<0) || (y<0) || (z<0);
 
 
 /*
